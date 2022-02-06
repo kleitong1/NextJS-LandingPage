@@ -29,3 +29,9 @@ O comando next build && next export gera os arquivos que serão utilizados no am
 O Next.js entrega o conteúdo da página diretamente, enquanto no Create React App ele é gerado após o carregamento. Como resultado o SEO é melhor.
 ## create-next-app
 Essa ferramenta realiza o setup inicial por você, facilitando o início de uma aplicação Next.js.
+
+## Imagem estática (arquivo local)
+
+const srcDoIcone = “/icones/nome-do-icone.svg”
+
+Arquivos estáticos e imagens devem ser colocadas dentro da pasta public. Para referenciar o arquivo dentro dessa pasta, devemos começar o caminho com “/” e também colocar a extensão no final.
