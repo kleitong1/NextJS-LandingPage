@@ -54,4 +54,15 @@ Não deverá ser visto pelos motores de busca nem pelos clientes;
 O tempo de carregamento não é prioridade.
 Após analisar os requisitos, você percebeu que o Next.js fornece as ferramentas necessárias para atendê-los bem.
 
-!O ponto forte do SSG é a entrega rápida de conteúdos estáticos, então ele é a melhor estratégia para a página inicial. Com o SSR, você poderá construir um painel de controle personalizado e atualizado para cada requisição.
+O ponto forte do SSG é a entrega rápida de conteúdos estáticos, então ele é a melhor estratégia para a página inicial. Com o SSR, você poderá construir um painel de controle personalizado e atualizado para cada requisição.
+
+### Informações
+
+# getStaticProps
+Essa função busca os dados durante o build. Ou seja, essa função é executada apenas uma vez.
+
+# getServerSideProps
+Essa função busca os dados do lado do servidor para cada requisição.
+
+# Ao modificar o título da página
+Com o componente <Head> conseguimos editar os metadados de cada página, como, por exemplo, o título.
