@@ -1,4 +1,4 @@
-import Footer from '../../components/patterns/Footer'
+import Footer from '../../components/patterns/footer'
 import Link from '../../components/Link'
 import { theme } from '../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
