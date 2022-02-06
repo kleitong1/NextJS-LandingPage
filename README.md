@@ -35,3 +35,23 @@ Essa ferramenta realiza o setup inicial por você, facilitando o início de uma 
 const srcDoIcone = “/icones/nome-do-icone.svg”
 
 Arquivos estáticos e imagens devem ser colocadas dentro da pasta public. Para referenciar o arquivo dentro dessa pasta, devemos começar o caminho com “/” e também colocar a extensão no final.
+
+### Detalhes
+
+A página inicial terá os seguintes requisitos:
+
+Ser atrativa visualmente para os clientes;
+Ter bom SEO para aparecer nas pesquisas dos motores de busca;
+Ter um baixo tempo de carregamento;
+Descrever o produto;
+Redirecionar para a parte de compra (que será desenvolvido por outra equipe);
+Uma vez pronta, serão necessários pequenos ou quase nenhum ajuste.
+O painel de controle terá os seguintes requisitos:
+
+Mostrar os dados de venda atualizados;
+A informação deve ser personalizada para cada cargo (vendedor, administrador, patrocinador etc);
+Não deverá ser visto pelos motores de busca nem pelos clientes;
+O tempo de carregamento não é prioridade.
+Após analisar os requisitos, você percebeu que o Next.js fornece as ferramentas necessárias para atendê-los bem.
+
+!O ponto forte do SSG é a entrega rápida de conteúdos estáticos, então ele é a melhor estratégia para a página inicial. Com o SSR, você poderá construir um painel de controle personalizado e atualizado para cada requisição.
