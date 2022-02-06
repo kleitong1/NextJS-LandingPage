@@ -1,3 +1,7 @@
+### LINK DO PROJETO
+
+https://next-js-landing-page1.vercel.app
+
 # NextJS-LandingPage
 
 Para preparar o ambiente, precisaremos de algumas coisas instaladas no computador, são elas:
